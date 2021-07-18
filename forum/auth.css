@@ -1,0 +1,45 @@
+ body{
+ 	background-color: #f5f5f5;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+}
+.main{
+    position:absolute;
+    z-Index: 2;
+    width: 300px;
+    height:300px;
+    margin:auto;
+    text-align: center;
+    background: #7e7e7e;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.name{
+    font-weight:600;
+    color: white;
+    margin-bottom: 30px;
+}
+.text{
+    width: 70px;
+    color: white;
+    display: inline-block;
+}
+.error_label{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 15px;
+    color: red;
+}
+.submit_button{
+    width: 150px;
+    margin-top: 10px;
+}
+.exit_button{
+    position:absolute;
+    right: 12px;
+    top: 12px;
+}

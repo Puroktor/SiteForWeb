@@ -1,0 +1,85 @@
+#svg_pic{
+	width: 40px;
+	height: 40px;
+	margin-top: -7px;
+	vertical-align: middle;
+}
+#login_label{
+	font-style: italic;
+	text-align: center;
+}
+.theme{
+    margin-top: 10px;
+	padding-left: 10px;
+	height: 30px;
+	line-height: 30px;
+	background: #2d2727;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+.theme:hover{
+	background: #443b3b;
+}
+.theme_container{
+	margin-top: -15px;
+	border-left: 2px solid #2d2727;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom:1px;
+}
+.comment{
+    padding-top: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    margin-right: 5px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+.date{
+    font-size: 12px;
+}
+.input_mes{
+    width: 250px;
+    margin-top: 5px;
+}
+.sub_but{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.dig{
+    font-style: italic;
+    color: gray;
+    font-size: 12px;
+    display: inline;
+    margin-left: 3px;
+    margin-right: -3px;
+}
+.add_cont{
+    margin-top: 20px;
+	text-align: center;
+}
+#name_inp{
+    width:200px;
+}
+#name_inp::placeholder{
+    text-align: center;
+}
+.del_button{
+    background-color: transparent;
+    color: red;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.del_button:hover {
+    color: brown;
+}
+.del_form{
+    position: absolute;
+    right: 5px;
+    top: 0;
+}

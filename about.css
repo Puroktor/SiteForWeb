@@ -1,0 +1,14 @@
+#svg_pic{
+	width: 55px;
+	height: 55px;
+	margin-top: -7px;
+	vertical-align: middle;
+}
+.bold{
+	font-weight:600;
+}
+#me_img{
+	width: 264px;
+	height:339px;
+	border: 1px solid #2d2727;
+}

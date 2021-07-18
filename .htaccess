@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteRule ^myForum?$ forum/forum.php [NC,L]
+RewriteRule ^signup?$ forum/signUp.php [NC,L]
+RewriteRule ^login?$ forum/login.php [NC,L]
+RewriteRule ^about?$ about.php [NC,L]
